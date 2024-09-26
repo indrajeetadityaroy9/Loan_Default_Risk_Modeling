@@ -1,1 +1,2 @@
-# Loan_Default_Risk_Modeling
+# Loan Default Risk Modeling
+Predictive regression modeling to estimate the likelihood of borrowers defaulting on loans. By utilizing historical data, such as financial history, loan performance, and employment details, this model provides accurate risk assessments. Use cases include financial institutions making informed lending decisions, reducing potential losses, and improving overall risk management strategies.
