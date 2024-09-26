@@ -14,12 +14,11 @@ Predictive regression modeling to estimate the likelihood of borrowers defaultin
 | Industry             | Categorical              | Industry type                 |
 | Role                 | Categorical              | Role description              |
 | Work Experience      | Categorical and Ordinal  | Work experience category      |
-| Total Income(PA)     | Integer                  | Total annual income           |
+| Total Income         | Integer                  | Total annual income           |
 | Gender               | Categorical              | Gender of the user            |
 | Married              | Categorical              | Marital status                |
 | Dependents           | Integer                  | Number of dependents          |
 | Home                 | Categorical              | Housing category              |
-| Pincode              | Unknown                  | Pincode information           |
 | Social Profile       | Categorical              | Social profile of the user    |
 | Is_verified          | Categorical              | Verification status           |
 | Delinq_2yrs          | Integer                  | Number of delinquencies       |
