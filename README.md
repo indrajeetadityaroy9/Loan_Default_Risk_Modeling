@@ -8,13 +8,13 @@ Predictive regression modeling to estimate the likelihood of borrowers defaultin
 | Loan Category      | object (String) | Loan category                              | Categorical             |
 | Amount             | float           | Loan amount                                | Numerical               |
 | Interest Rate      | float           | Interest rate on the loan                  | Numerical               |
-| Tenure (years)     | int             | Loan tenure in years                       | Numerical               |
+| Loan Tenure     | int             | Loan tenure in years                       | Numerical               |
 | Employment type    | object (String) | Type of employment                         | Categorical             |
 | Tier of Employment | object (String) | Employment tier classification             | Categorical and Ordinal |
 | Industry           | object (String) | Industry type                              | Categorical             |
 | Role               | object (String) | Job role description                       | Categorical             |
 | Work Experience    | object (String) | Category of work experience                | Categorical and Ordinal |
-| Total Income (PA)  | float           | Total annual income in monetary value      | Numerical               |
+| Total Income  | float           | Total annual income      | Numerical               |
 | Gender             | object (String) | Gender of the user                         | Categorical             |
 | Married            | object (String) | Marital status                             | Categorical             |
 | Dependents         | int             | Number of dependents                       | Numerical               |
@@ -28,3 +28,24 @@ Predictive regression modeling to estimate the likelihood of borrowers defaultin
 | Interest Received  | float           | Interest amount received by lender         | Numerical               |
 | Number of loans    | int             | Number of loans taken by the user          | Numerical               |
 | Defaulter          | int             | Indicates if the user is a defaulter (1/0) | Categorical (Binary)    |
+
+### Data Dictionary (After Data Engineering and Selection)
+| Column Name        | Data Type       | Description                                | Variable Type           |
+|--------------------|-----------------|--------------------------------------------|-------------------------|
+| User_id            | int             | Unique identifier for the user             | Numerical               |
+| Loan Category      | String | Loan category                              | Categorical             |
+| Amount             | float           | Loan amount                                | Numerical               |
+| Interest Rate      | float           | Interest rate on the loan                  | Numerical               |
+| Loan Tenure        | int             | Loan tenure in years                       | Numerical               |
+| Employment type    | String | Type of employment                         | Categorical             |
+| Tier of Employment | String | Employment tier classification             | Categorical and Ordinal |
+| Work Experience    | String | Category of work experience                | Categorical and Ordinal |
+| Total Income       | float           | Total annual income                        | Numerical               |
+| Dependents         | int             | Number of dependents                       | Numerical               |
+| Home               | String | Housing category (owned/rented)            | Categorical             |
+| Social Profile     | String | Social profile classification              | Categorical             |
+| Delinq_2yrs        | int             | Number of delinquencies in 2 years         | Numerical               |
+| Interest Received  | float           | Interest amount received by lender         | Numerical               |
+| Number of loans    | int             | Number of loans taken by the user          | Numerical               |
+| Defaulter          | int             | Indicates if the user is a defaulter (1/0) | Categorical (Binary)    |
+| Payment_to_Principal_Ratio          | float            | Proportion of total loan payments applied to the loan principal | Numerical    |
